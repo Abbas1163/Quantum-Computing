@@ -505,8 +505,8 @@ export default function Index() {
               <div className="relative z-10 text-center">
                 <div className="w-40 h-40 rounded-xl overflow-hidden border-2 border-quantum-cyan mx-auto mb-6 shadow-lg">
                   <img
-                    src="/photos/chief-guest.jpg"
-                    alt="Chief Guest"
+                    src="/photos/Dr. Manish Bali.jpg"
+                    alt="Dr. Manish Bali"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
@@ -517,8 +517,8 @@ export default function Index() {
                     }}
                   />
                 </div>
-                <h3 className="text-white font-bold text-2xl mb-3">Chief Guest Name</h3>
-                <p className="text-quantum-cyan text-base font-semibold">Designation / Organization</p>
+                <h3 className="text-white font-bold text-2xl mb-3">Dr. Manish Bali</h3>
+                <p className="text-quantum-cyan text-base font-semibold">Senior Director & Head|Pre-Silicon & Embedded|UST</p>
               </div>
             </div>
           </div>
