@@ -100,9 +100,9 @@ export default function Index() {
     { name: "Dr. Jawar Singh", affiliation: "Professor, IIT Patna", specialty: "", photo: "/photos/Dr. Jawar Singh.jpg" },
     { name: "Dr. Varun Raghunathan", affiliation: "Associate Professor, ECE, IISc", specialty: "", photo: "/photos/Dr. Varun Raghunathan.jpg" },
     { name: "Mr. Rajasekhar Nannapaneni", affiliation: "Consultant Solutions Architect, Dell Technologies", specialty: "", photo: "/photos/Mr. Rajasekhar Nannapaneni.jpg" },
-    { name: "Dr. Jayakumar Vaithiya Shankar", affiliation: "Founder and CEO, Anuthantra Private Limited", specialty: "", photo: undefined },
+    { name: "Dr. Jayakumar Vaithiya Shankar", affiliation: "Founder and CEO, Anuthantra Private Limited", specialty: "", photo: "/photos/Dr. Jayakumar Vaithiya Shankar.jpg" },
     { name: "Dr. Ajmal Ibn Mohammed Althaf", affiliation: "Founder and Scientific Lead, QuantumX", specialty: "", photo: "/photos/Dr. Ajmal Ibn Mohammed Althaf.png" },
-    { name: "Dr. R. Thilagavathy", affiliation: "Associate Professor, SRM University", specialty: "", photo: undefined },
+    { name: "Dr. R. Thilagavathy", affiliation: "Associate Professor, SRM University", specialty: "", photo: "/photos/Dr. R. Thilagavathy.jpg" },
     { name: "Dr. Pallaviram Sure", affiliation: "Professor, Ramaiah University of Applied Sciences", specialty: "", photo: "/photos/Dr. Pallaviram Sure.jpg" },
   ];
 
@@ -148,6 +148,63 @@ export default function Index() {
     "Gain hands-on experience with quantum computing platforms and simulators",
     "Understand NISQ era algorithms and error mitigation strategies",
     "Explore research opportunities in quantum computing",
+  ];
+
+  const participants = [
+    { name: "Miss Mythri R", organization: "ATME college of Engineering" },
+    { name: "Mrs. Shrilakshmi Prasad", organization: "ATME College of Engineering" },
+    { name: "Dr. Niranjan E", organization: "BIT" },
+    { name: "Mrs. Rekha R", organization: "BNU" },
+    { name: "Mrs. Varshini T R", organization: "cambridge institute of technology north campus" },
+    { name: "Dr. Yogesh G S", organization: "East point college of Engineering and Technology" },
+    { name: "Mr. Devendiran K", organization: "Global Academy of Technology" },
+    { name: "Miss Precilla Y", organization: "HKBK Degree college" },
+    { name: "Mr. Chandra Shekar", organization: "HKBK Degree college" },
+    { name: "Mr. Pavan Av", organization: "HKBK Degree college" },
+    { name: "S Vijaya Kumar", organization: "HKBK Degree college" },
+    { name: "Abhirami Pp", organization: "HKBK Degree college" },
+    { name: "Ajay K V", organization: "HKBK Degree college" },
+    { name: "Miss Yashaswini G", organization: "HKBK Degree college" },
+    { name: "Mrs. Reshma Jinto", organization: "HKBKCE" },
+    { name: "Dr. Dr Mvilasini", organization: "HKBKCE" },
+    { name: "Mr. Manup Prasad M P", organization: "HKBKCE" },
+    { name: "Mrs. Husna Sabhat", organization: "HKBKCE" },
+    { name: "Mrs. Summaiya Almas", organization: "HKBKCE" },
+    { name: "Dr.A.Elakkiya", organization: "HKBKCE" },
+    { name: "Miss Nelvita Lorraine Fernandes", organization: "HKBKCE" },
+    { name: "Miss Arshiya Fathima", organization: "HKBKCE" },
+    { name: "Dr. Aryalekshmi B N", organization: "HKBKCE" },
+    { name: "Dr. Abdul Azeez", organization: "HKBKCE" },
+    { name: "Noor Ayesha", organization: "HKBKCE" },
+    { name: "Muskan S", organization: "HKBKCE" },
+    { name: "Girija Lakshmi", organization: "HKBKCE" },
+    { name: "Aushij Singh", organization: "HKBKCE" },
+    { name: "Dr Gayathri R", organization: "HKBKCE" },
+    { name: "Mr Arun Kumar", organization: "HKBKCE" },
+    { name: "Hashinur Islam", organization: "HKBKCE" },
+    { name: "Mrs. Radhika S K", organization: "Jawaharlal Nehru New College of Engineering" },
+    { name: "Dr. Shashidhar R", organization: "JSS Science and Technology University, Mysuru" },
+    { name: "Mrs. Prathima G", organization: "M.S.Engineering College" },
+    { name: "Mrs. Kavitha D D", organization: "MAHE Bangalore" },
+    { name: "Dr. Selva Nidhyananthan.S", organization: "Mepco Schlenk Engineering College" },
+    { name: "Mr. Arun Raj", organization: "Mepco Schlenk Engineering College" },
+    { name: "Dr. Davidson Kamala Dhas", organization: "Mepco Schlenk Engineering College" },
+    { name: "Bharath V", organization: "MSRIT" },
+    { name: "M. Janaki", organization: "New horizon" },
+    { name: "Mrs. Annapoorna M", organization: "NMIT" },
+    { name: "Miss Umm E Asma", organization: "PES Institute of Advanced Management Studies" },
+    { name: "Mrs. Afreen Kubra", organization: "Presidency university" },
+    { name: "Dr. Pacha Shobha Rani", organization: "R.M.K. Engineering College" },
+    { name: "Dr. Nayana Hegde", organization: "REVA" },
+    { name: "Shruthi B M", organization: "REVA" },
+    { name: "Lakshmi Devi D", organization: "SIMATS" },
+    { name: "Miss Sandhya", organization: "SJCIT" },
+    { name: "Mrs. Rakshitha N T", organization: "SJCIT" },
+    { name: "Mrs. Lavanya J", organization: "SJCIT" },
+    { name: "Mr. Sreenivas Gollarahalli Seetharamaiah", organization: "SJCIT" },
+    { name: "Mr. Narendrasingh Chauhan", organization: "Techsa solutions pvt ltd" },
+    { name: "Dr. Deva K", organization: "Vel Tech High Tech Dr.Rangarajan Dr.Sakunthala Engineering College" },
+    { name: "Dr. R Thiagarajan", organization: "VeltechMultitech engineering college" },
   ];
 
   const navLinks = [
@@ -282,6 +339,7 @@ export default function Index() {
         </div>
       </section>
 
+      
       {/* ABOUT COLLEGE */}
       <section id="about-college" className="py-20 px-4 sm:px-6 lg:px-8 bg-quantum-dark">
         <div className="container mx-auto max-w-6xl">
@@ -315,55 +373,6 @@ export default function Index() {
                     target.textContent = 'HKBK Campus';
                   }}
                 />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-quantum-navy via-quantum-indigo to-quantum-navy">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid gap-8 md:grid-cols-2">
-            <div className="relative overflow-hidden rounded-2xl border border-quantum-cyan border-opacity-40 bg-quantum-dark/60 p-8 flex flex-col items-center text-center">
-              <div className="absolute inset-0 bg-gradient-to-br from-quantum-cyan/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="relative z-10 flex flex-col items-center gap-4">
-                <div className="flex items-center gap-2 text-quantum-cyan text-sm font-semibold uppercase tracking-widest">
-                  <Users className="w-5 h-5" />
-                  <span>Participant Count</span>
-                </div>
-                <div className="mt-4 flex flex-col items-center">
-                  <span className="text-5xl sm:text-6xl font-extrabold text-white tracking-tight">
-                    150+
-                  </span>
-                  <span className="mt-2 text-xs sm:text-sm uppercase tracking-[0.25em] text-gray-400">
-                    Registered Participants
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="relative overflow-hidden rounded-2xl border border-quantum-cyan border-opacity-40 bg-quantum-dark/60 p-8 flex flex-col items-center text-center">
-              <div className="absolute inset-0 bg-gradient-to-br from-quantum-purple/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-              <div className="relative z-10 flex flex-col items-center gap-4">
-                <div className="flex items-center gap-2 text-quantum-cyan text-sm font-semibold uppercase tracking-widest">
-                  <Clock className="w-5 h-5" />
-                  <span>Event Starts In</span>
-                </div>
-                <div className="flex gap-3 sm:gap-4 mt-2">
-                  {([
-                    { label: "Days", value: eventTime.days },
-                    { label: "Hours", value: eventTime.hours },
-                    { label: "Minutes", value: eventTime.minutes },
-                    { label: "Seconds", value: eventTime.seconds },
-                  ] as const).map((item) => (
-                    <div key={item.label} className="flex flex-col items-center justify-center px-3 py-2 sm:px-4 sm:py-3 rounded-xl bg-quantum-black/60 border border-quantum-cyan/40 min-w-[70px]">
-                      <span className="text-2xl sm:text-3xl font-bold text-white tabular-nums">
-                        {item.value.toString().padStart(2, "0")}
-                      </span>
-                      <span className="mt-1 text-[10px] sm:text-xs uppercase tracking-widest text-gray-400">{item.label}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
@@ -774,17 +783,42 @@ export default function Index() {
       </section>
 
       {/* PARTICIPANTS */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-quantum-dark">
+      <section id="participants" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-quantum-dark to-quantum-navy">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-8 text-center">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-10 text-center">
             <span className="text-quantum-cyan">Participants</span>
           </h2>
-          <p className="text-gray-300 text-center max-w-2xl mx-auto">
-            Details about the registered participants can be highlighted here.
-          </p>
+
+          <div className="overflow-x-auto rounded-2xl border border-quantum-cyan/40 bg-gradient-to-br from-quantum-navy via-quantum-indigo to-quantum-dark shadow-[0_0_30px_rgba(0,255,255,0.25)]">
+            <table className="min-w-full text-left text-sm text-gray-200">
+              <thead className="bg-quantum-black/60 border-b border-quantum-cyan/40">
+                <tr>
+                  <th className="px-4 sm:px-6 py-3 font-semibold tracking-wide text-quantum-cyan whitespace-nowrap">#</th>
+                  <th className="px-4 sm:px-6 py-3 font-semibold tracking-wide text-quantum-cyan whitespace-nowrap">Name</th>
+                  <th className="px-4 sm:px-6 py-3 font-semibold tracking-wide text-quantum-cyan whitespace-nowrap">Organization</th>
+                </tr>
+              </thead>
+              <tbody>
+                {participants.map((p, idx) => (
+                  <tr
+                    key={`${p.name}-${idx}`}
+                    className={
+                      idx % 2 === 0
+                        ? "bg-quantum-dark/60 hover:bg-quantum-dark/80 transition-colors"
+                        : "bg-quantum-navy/60 hover:bg-quantum-navy/80 transition-colors"
+                    }
+                  >
+                    <td className="px-4 sm:px-6 py-3 align-top text-gray-400 whitespace-nowrap">{idx + 1}</td>
+                    <td className="px-4 sm:px-6 py-3 align-top font-medium text-white whitespace-nowrap">{p.name}</td>
+                    <td className="px-4 sm:px-6 py-3 align-top text-gray-200">{p.organization}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
-
+      
       {/* LEARNING OUTCOMES */}
       <section id="outcomes" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-quantum-dark to-quantum-navy">
         <div className="container mx-auto max-w-4xl">
